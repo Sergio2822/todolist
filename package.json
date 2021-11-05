@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergio2822/TODO-list-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sergio2822/TODO-list-API/issues"
+  },
+  "homepage": "https://github.com/Sergio2822/TODO-list-API#readme"
 }
