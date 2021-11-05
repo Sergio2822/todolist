@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "pm2": "^5.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
