@@ -8,8 +8,6 @@ const ToDoListSchema = new mongoose.Schema({
     },
 });
 function isMyFieldNotEmpty () {
-    console.log("Here");
-    console.log(this.text.length);
     return this.text.length > 1? false: true
 }
 
