@@ -1,7 +1,7 @@
 const express = require('express');
 const connection = require('./mongo/MongoClientFactory')
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 
 // Router
